@@ -8,10 +8,11 @@ Also if your doing facebook applications a good source of documentation is the o
 First you need to import it where you want to use it : `from facebook.py import *`
 
 Then you specify all your facebook settings in your django settings file like this :
-    `FACEBOOK_APP_ID = "YOUR_APP_ID_HERE"
+
+    FACEBOOK_APP_ID = "YOUR_APP_ID_HERE"
     FACEBOOK_APP_SECRET = "YOUR_APP_SECRET_HERE"
     FACEBOOK_REQ_PERMS = ("permission1","permission2","permission3")
-    CANVAS_URI = "YOUR_CANVAS_URL_FOR_REDIRECTION_AFTER_AUTH"`
+    CANVAS_URI = "YOUR_CANVAS_URL_FOR_REDIRECTION_AFTER_AUTH"
 
 Then either you create your facebook object and use it directly like this :
     `fb = Facebook()`

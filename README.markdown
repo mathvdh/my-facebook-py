@@ -41,7 +41,7 @@ The second one will check if the user is authenticated, if not it will redirect 
 Example :
 
     @fbsig_redirect
-    def my_super_view(request,chat_session_id):
+    def my_super_view(request):
         if request.fbObject is not None:
             me = request.fbObject.get_object("me")
             #do something with "me"
